@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@font-face {
+    font-family: roboto;
+    src: url(/Roboto/Roboto-Regular.ttf);
+}
+html{
+    font-size: 62.5%;
+    font-family: roboto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #4d4d4d;
+    line-height: 2;
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #162028;
+    align-items: center;
+    padding: 0;
+    height: 6.3rem;
+}
+
+.header-title{
+    margin-left: 20rem;
+    color: white;
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: 200;
+    
+}
+
+.header-title a:link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.header-menu{
+    list-style-type: none;
+    margin-right: 5rem;
+    text-transform: uppercase;
+    
+    
+}
+
+.header-menu a:link{
+    color:#425564 ;
+}
+
+.header-menu a:hover{
+    color: #8393a1;
+}
+
+.header-menu a{
+    text-decoration: none;
+    transition: color .3s linear;
+}
+
+.header-menu li{
+    display: inline-block;
+    margin-left:6rem ;
+    color: #425564;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.topo img{
+    width: 100%;
+}
+
+.main{
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin: 7rem auto;
+}
+
+.main-subtitle{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 4.2rem;
+    font-weight: 200;
+}
+
+
+.cards-list{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    list-style-type: none;
+    padding-bottom: 5rem;
+    
+}
+
+.cards-item img:hover{
+    opacity: 0.75;
+}
+
+.cards-item{
+    transition: opacity 0.5s linear 0s ;
+}
+
+.cards-item__title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 1.6rem;
+}
+
+.cards-item__description{
+    text-align: center;
+    
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.rodape-detalhes{
+    background-image: url(/imagens/bg_detalhe.png);
+    padding: 16rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.rodape-detalhes span{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 5.5rem;
+    font-weight: 200;
+    
+}
+
+.rodape-detalhes p{
+    max-width: 68rem;
+}
+
+.rodape-copy{
+    background-color: #0b171f;
+    color: #6f8597;
+    text-align: center;
+    padding: 1.6rem;
+    letter-spacing: 0.3rem;
+}
